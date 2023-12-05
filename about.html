@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About us page">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- add java script -->
+    <script src="./js/javascript.js.js"></script>
+    <!-- add our CSS file -->
+    <link rel="stylesheet" href="css/about.css">
+    <title>About us</title>
+</head>
+
+<body>
+<!-- Header with logo and link to other pages -->
+    <header>
+        <div>
+            <a href="index.html"><img src="img/logo.webp" alt="Dealership logo"></a>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./product.html">Product</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <main>
+    <!-- Masthead with background video -->
+       <section class="masthead">
+               <video class="background-video" autoplay loop muted poster="img/banner.jpg">
+                   <source src="img/video.mp4">
+               </video>
+               <h1>Helping Barrie to find cars for more than 20 years!</h1>
+       </section>
+
+       <!-- 5 steps of car inspection -->
+       <section>
+           <h3>How we check our cars</h3>
+           <div class="check-steps">
+               <div id="first"><img src="img/carfox.png" alt="Carfox"><p>We look into Carfox for any crashes or issues with police</p></div>
+               <div id="second"><img src="img/paint.jpg" alt="Paint"><p>Check paint thickness and look for body scratches</p></div>
+               <div id="third"><img src="img/computer.jpg" alt="computer"><p>Professional computer diagnosis using software certified by manufactures</p></div>
+               <div id="fourth"><img src="img/inspection.jpg" alt="suspension inspection"><p>Suspension check</p></div>
+               <div id="fifth"><img src="img/car-test.avif" alt="test drive"><p>Taking the car for a test-drive</p></div>
+           </div>
+
+           <div class="button-container">
+               <button class="check-button" onClick="myFunction1()">Step 1</button>
+               <button class="check-button" onClick="myFunction2()">Step 2</button>
+               <button class="check-button" onClick="myFunction3()">Step 3</button>
+               <button class="check-button" onClick="myFunction4()">Step 4</button>
+               <button class="check-button" onClick="myFunction5()">Step 5</button>
+           </div>
+
+       </section>
+   </main>
+
+   <!-- footer -->
+    <footer>
+        <p>101 Georgian Drive, Barrie, ON &emsp; Phone: 705-123-4567</p>
+    </footer>
+
+</body>
+</html>

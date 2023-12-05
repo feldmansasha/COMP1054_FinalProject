@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact page">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <!-- add our CSS file -->
+    <link rel="stylesheet" href="css/product.css">
+    <!-- add java script -->
+    <script src="./js/javascript.js.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <!-- header with 4 links-->
+    <header>
+        <div>
+            <a href="index.html"><img src="img/logo.webp" alt="Dealership logo"></a>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./product.html">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Map and contact details -->
+        <section class="address">
+            <!-- Office on Google Maps -->
+            <div class="google">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.9893727767408!2d-79.6706716466038!3d44.41286379672649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa371731712c7%3A0xb83f553fdb55eb91!2sGeorgian%20College%20Barrie%20Residence!5e0!3m2!1sen!2sca!4v1701706623822!5m2!1sen!2sca"></iframe>"
+            </div>
+
+            <!-- Contact form for potential customers -->
+            <div class="container">
+                <h3>Write us or call at 705-123-4567!</h3>
+                <form>
+              
+                  <label for="name">Your name:</label>
+                  <input id="name" placeholder="Name" type="text" required>
+
+                  <label for="telephone">Telephone:</label>
+                  <input id="telephone" type="tel" name="telephone" 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="705-123-4567" required>
+              
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="subject" placeholder="Your message" required></textarea>
+              
+                  <input class="send" type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </section>
+    </main>
+
+    <!-- footer-->
+    <footer>
+        <p>101 Georgian Drive, Barrie, ON &emsp; Phone: 705-123-4567</p>
+    </footer>
+    </body>
